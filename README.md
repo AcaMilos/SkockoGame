@@ -27,6 +27,13 @@ Photo of SSD1306 OLED at final result:
 
 <img width="200" alt="SkockoGame" src="https://github.com/AcaMilos/SkockoGame-STM32L4_with_OLED/blob/master/Photos/platform_final_result_V1.0_small.jpg?raw=true">
 
+Photo of UART terminal at middle of the game:
+
+<img width="200" alt="SkockoGame" src="https://github.com/AcaMilos/SkockoGame-STM32L4_with_OLED/blob/master/Photos/UART_terminal_start_V1.0.PNG?raw=true">
+
+Photo of UART terminal at the end of the game:
+
+<img width="200" alt="SkockoGame" src="https://github.com/AcaMilos/SkockoGame-STM32L4_with_OLED/blob/master/Photos/UART_terminal_final_V1.0.PNG?raw=true">
 
 ## About Hardware
 On next photo is Block Schematic of System.
