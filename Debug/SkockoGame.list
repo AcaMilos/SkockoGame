@@ -1,5 +1,5 @@
 
-IRS2_OLED_V3_CPP.elf:     file format elf32-littlearm
+SkockoGame.elf:     file format elf32-littlearm
 
 Sections:
 Idx Name          Size      VMA       LMA       File off  Algn

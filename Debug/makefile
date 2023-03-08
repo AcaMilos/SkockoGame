@@ -49,34 +49,34 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := IRS2_OLED_V3_CPP
+BUILD_ARTIFACT_NAME := SkockoGame
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-IRS2_OLED_V3_CPP.elf \
+SkockoGame.elf \
 
 MAP_FILES += \
-IRS2_OLED_V3_CPP.map \
+SkockoGame.map \
 
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
-IRS2_OLED_V3_CPP.list \
+SkockoGame.list \
 
 
 # All Target
 all: main-build
 
 # Main-build Target
-main-build: IRS2_OLED_V3_CPP.elf secondary-outputs
+main-build: SkockoGame.elf secondary-outputs
 
 # Tool invocations
-IRS2_OLED_V3_CPP.elf IRS2_OLED_V3_CPP.map: $(OBJS) $(USER_OBJS) C:\Users\ACA\Documents\STM_workspace\IRS2_OLED_V3_CPP\STM32L476RGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-g++ -o "IRS2_OLED_V3_CPP.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\ACA\Documents\STM_workspace\IRS2_OLED_V3_CPP\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="IRS2_OLED_V3_CPP.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+SkockoGame.elf SkockoGame.map: $(OBJS) $(USER_OBJS) C:\Users\ACA\Documents\STM_workspace\IRS2_OLED_V3_CPP\STM32L476RGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-g++ -o "SkockoGame.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\ACA\Documents\STM_workspace\IRS2_OLED_V3_CPP\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SkockoGame.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -85,14 +85,14 @@ default.size.stdout: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-IRS2_OLED_V3_CPP.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "IRS2_OLED_V3_CPP.list"
+SkockoGame.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "SkockoGame.list"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) IRS2_OLED_V3_CPP.elf IRS2_OLED_V3_CPP.list IRS2_OLED_V3_CPP.map default.size.stdout
+	-$(RM) SkockoGame.elf SkockoGame.list SkockoGame.map default.size.stdout
 	-@echo ' '
 
 secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)
