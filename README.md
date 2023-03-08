@@ -11,12 +11,19 @@ You have 6 characters and 4 positions. On each position could be any character (
 <img width="400" alt="SkockoGame" src="https://github.com/AcaMilos/SkockoGame-STM32L4_with_OLED/blob/master/Photos/GameSkocko.jpg?raw=true">
 
 ## System at work
+Photo of SSD1306 OLED at beginning:
 
 <img width="200" alt="SkockoGame" src="https://github.com/AcaMilos/SkockoGame-STM32L4_with_OLED/blob/master/Photos/platform_at_beginning_V1.0_small.jpg?raw=true">
 
+Photo of SSD1306 OLED at choosing single combination:
+
 <img width="200" alt="SkockoGame" src="https://github.com/AcaMilos/SkockoGame-STM32L4_with_OLED/blob/master/Photos/platform_at_choosing_comb_V1.0_small.jpg?raw=true">
 
+Photo of SSD1306 OLED at single result:
+
 <img width="200" alt="SkockoGame" src="https://github.com/AcaMilos/SkockoGame-STM32L4_with_OLED/blob/master/Photos/platform_result_V1.0_small.jpg?raw=true">
+
+Photo of SSD1306 OLED at final result:
 
 <img width="200" alt="SkockoGame" src="https://github.com/AcaMilos/SkockoGame-STM32L4_with_OLED/blob/master/Photos/platform_final_result_V1.0_small.jpg?raw=true">
 
