@@ -28,7 +28,7 @@ That's bare metal system (without any RTOS). Whole project relies on STM32 HAL f
 
 There on next photo you can see software architecture of this system.
 
-<img width="1000" alt="SkockoGame" src="https://github.com/AcaMilos/SkockoGame-STM32L4_with_OLED/blob/master/Photos/SW_Architecture_Main_program_V1.0.jpg?raw=true">
+<img width="1200" alt="SkockoGame" src="https://github.com/AcaMilos/SkockoGame-STM32L4_with_OLED/blob/master/Photos/SW_Architecture_Main_program_V1.0.jpg?raw=true">
 
 There on next photo you can see software architecture of ButtonPressedEventCallback function, which could not fit on above photo.
 
