@@ -24,7 +24,7 @@ You have 6 characters and 4 positions. On each position could be any character (
 ## About Hardware
 On next photo is Block Schematic of System.
 
-<img width="400" alt="SkockoGame" src="https://github.com/AcaMilos/SkockoGame-STM32L4_with_OLED/blob/master/Photos/BlockSystemV1.0.PNG?raw=true">
+<img width="800" alt="SkockoGame" src="https://github.com/AcaMilos/SkockoGame-STM32L4_with_OLED/blob/master/Photos/BlockSystemV1.0.PNG?raw=true">
 
 
 ## About software
