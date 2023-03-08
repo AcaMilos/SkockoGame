@@ -9,5 +9,6 @@ That's bare metal system (without any RTOS). Whole project relies on STM32 HAL f
 ## About Game
 Game is about choosing the right combination of 6 characters.
 You have 6 characters and 4 positions. On each position could be any character (they could repeat). 
+
 <img width="400" alt="SkockoGame" src="https://github.com/AcaMilos/SkockoGame-STM32L4_with_OLED/blob/master/Photos/GameSkocko.jpg?raw=true">
 
