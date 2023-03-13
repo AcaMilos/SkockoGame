@@ -35,7 +35,7 @@ On next photo is Block Schematic of System.
 
 
 ## About software
-That's bare metal system (without any RTOS). Whole project relies on STM32 HAL functions. All user software was written in C++, so generaly project is mix of C++, C, and assembly (a bit).
+That's bare metal system (without any RTOS). Whole project relies on STM32 HAL functions. All user software was written in C++, so generaly project is mix of C++, C, and assembly (a little bit).
 
 There on next photo you can see software architecture of this system.
 
