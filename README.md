@@ -44,3 +44,12 @@ There on next photo you can see software architecture of this system.
 There on next photo you can see software architecture of ButtonPressedEventCallback function, which could not fit on above photo.
 
 <img width="800" alt="SkockoGame" src="https://github.com/AcaMilos/SkockoGame-STM32L4_with_OLED/blob/master/Photos/SW_Architecture_ButtonPressedEventCallbackV1.0.PNG?raw=true">
+
+## Refferences
+SSD1306 OLED:
+https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf
+https://www.texim-europe.com/getfile.ashx?id=121863
+I2C protocol:
+https://www.pololu.com/file/0J435/UM10204.pdf
+STM32L476RG:
+https://www.st.com/resource/en/reference_manual/rm0351-stm32l47xxx-stm32l48xxx-stm32l49xxx-and-stm32l4axxx-advanced-armbased-32bit-mcus-stmicroelectronics.pdf
